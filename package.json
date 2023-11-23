@@ -1,0 +1,13 @@
+{
+  "name": "wp_to_sanity",
+  "version": "1.0.0",
+  "description": "",
+  "main": "getData.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

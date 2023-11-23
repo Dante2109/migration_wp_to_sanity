@@ -11,7 +11,7 @@ export default {
       {
         name: 'content',
         title: 'Content',
-        type: 'text',
+        type: 'string',
       },
       {
         name: 'excerpt',
@@ -53,12 +53,12 @@ export default {
         type: 'array',
         of: [{ type: 'reference', to: [{ type: 'category' }] }],
       },
-      {
-        name: 'tags',
-        title: 'Tags',
-        type: 'array',
-        of: [{ type: 'reference', to: [{ type: 'tag' }] }],
-      },
+        {
+          name: 'tags',
+          title: 'Tags',
+          type: 'array',
+          of: [{ type: 'reference', to: [{ type: 'tag' }] }],
+        },
     ],
   };
   
